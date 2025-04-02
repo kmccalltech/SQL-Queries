@@ -96,3 +96,7 @@ The screenshot below shows how I executed that task using an SQL query to filter
 The query shows how I selected all the employees from the employees table then used a Where clause with the NOT operator to filter the employees not in the I.T. department.
 </p>
 <br />
+
+<h3>Summary</h3>
+<p>To complete the task above I had to use different filters on SQL queries to get the necessary information about login attempts and employee departments. I used the AND, OR, and NOT operators to filter the information from the employee and log_in_attempts tables. Then used even more specific filters LIKE and the percentage sign to get information needed from the tables.
+</p>
