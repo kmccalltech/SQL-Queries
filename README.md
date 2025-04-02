@@ -1,5 +1,5 @@
 <h1> - Apply Filters to SQL Queries</h1>
-<b>This is one of my labs I completed during my Google cybersecurity certification</b>
+<b>This is one of my labs I completed during my Google cybersecurity certification we used Qwiklabs to as our sandbox.</b>
 
 Project description
 The scenario of this project is that I’m a security professional at a large organization. Part of my job is to keep the system secure and investigate security issues. I’ve recently discovered some potential security issues that involve login attempts on employee machines. I will also need to pull up certain employees in specific departments to make updates to their machines so I will need to use SQL with filters to get only those machines/departments to show in the log.
