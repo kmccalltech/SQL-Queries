@@ -24,7 +24,7 @@ The screenshot below shows just how I execute that task using an SQL query and f
 </p>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ovd02Yy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 This query filters all the failed login attempts after 18:00. I selected all the data from the log_in_attempts table. Following that I used the Where clause to select the login_time column from the table, along with the and operator to only show the attempts that were after 18:00 and unsuccessful.
@@ -38,7 +38,7 @@ This query filters all the failed login attempts after 18:00. I selected all the
 The screenshot below shows how I executed that task using an SQL query and filter the login attempts on the specific dates.
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PI735l3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To complete this task, I created a query that selected all the data from the log_in_attempts table and used the where clause to select the login_date column and requested only logins that happened on 2022-05-09 or 2022-05-08 by using the or operator. Doing so eliminated all the unnecessary dates from the returned log.
@@ -51,7 +51,7 @@ To complete this task, I created a query that selected all the data from the log
 The screenshot below shows how I executed that task using an SQL query and filter the login attempts that occurred everywhere except Mexico.
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dfXy9So.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To complete this task I created a query selecting all the data from the log_in_attempts table and used the where clause to select the country column and used the LIKE operator with “MEX%” string to bring up any data that represents Mexico. The % represents any number of unspecified characters when used with LIKE.
@@ -64,7 +64,7 @@ To complete this task I created a query selecting all the data from the log_in_a
 The screenshot below shows how I executed that task using an SQL query and filtered the employees in the Marketing department in the East building.
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VdGrMPi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To complete this task I created a query selecting all the data in the employees table. Then I used the Where clause to target the department column, pairing that with AND operator to also target the office column as well. When targeting the office column I used East% to be sure to select all the office numbers within the east building.
@@ -77,7 +77,7 @@ To complete this task I created a query selecting all the data in the employees 
 The screenshot below shows how I executed that task using an SQL query to filter the employees in the Finance and Sales departments.
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KPAtSz8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To complete this task I created a query selecting all the data in the employees table. Then used a Where clause with the OR operator to filter the employees that's only in the Finance and Sales departments. The reason I used the OR operator instead of the AND is because I wanted to pull all information on employees that's in either department. The first condition “department = ‘Finance’” pulls all employees in the Finance department and the second condition “department = ‘Sales’” pulls all the employees in the Sales conditions.
@@ -90,7 +90,7 @@ To complete this task I created a query selecting all the data in the employees 
 The screenshot below shows how I executed that task using an SQL query to filter the employees not in the Information Technology department.
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cD95Rpk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 The query shows how I selected all the employees from the employees table then used a Where clause with the NOT operator to filter the employees not in the I.T. department.
